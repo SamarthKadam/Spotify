@@ -1,0 +1,519 @@
+[
+    {
+        "name":"Apna Bana Le",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27382a60b8f529feb30dfc00543",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Hindi%20Mix%2FApna_Bana_Le__From__Bhediya__.mp3?alt=media&token=a0654f65-761f-4ee2-84e7-3c39538a4fe0",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485182a60b8f529feb30dfc00543",
+        "artists":"Arijit Singh,Sachin-Jigar,Amitabh Bhattacharya"
+    },
+    {
+        "name":"Atak Gaya - Arijit Singh",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273dc53a10529383dc097601a49",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Hindi%20Mix%2FAtak_Gaya_-_Arijit_Singh.mp3?alt=media&token=4e1a0f7f-f9d1-47d3-bb92-2fd7583400c2",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851dc53a10529383dc097601a49",
+        "artists":"Arijit Singh,Rupali Moghe"
+    },
+    {
+        "name":"Deva Deva (From Brahmastra)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27348988194ba040796bf8033d4",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Hindi%20Mix%2FDeva_Deva__From__Brahmastra__.mp3?alt=media&token=87d7db63-5ee3-4dc6-9dd8-243cee6b955e",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485148988194ba040796bf8033d4",
+        "artists":"Arijit Singh,Amitabh Bhattacharya,Jonita Gandhi"
+    },
+    {
+        "name":"Hardum Humdum",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273b67a843ee7de84208f3e4f28",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Hindi%20Mix%2FHardum_Humdum.mp3?alt=media&token=6bed460a-41cc-46dd-befc-d221af72bd68",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851b67a843ee7de84208f3e4f28",
+        "artists":"Pritam,Arijit Singh"
+    },
+    {
+        "name":"Kesariya (From Brahmastra)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273c08202c50371e234d20caf62",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Hindi%20Mix%2FKesariya__From__Brahmastra__.mp3?alt=media&token=d25effc0-c3c7-4522-8d27-f3c22c80dea4",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851c08202c50371e234d20caf62",
+        "artists":"Pritam,Arijit Singh,Amitabh Bhattacharya"
+    },
+    {
+        "name":"Kho Gaye",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273f1666492c429465c1ec2305e",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Hindi%20Mix%2FKho_Gaye.mp3?alt=media&token=a68f6219-121d-4413-bb01-7d552ce106a6",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851f1666492c429465c1ec2305e",
+        "artists":"Taaruk Raina,Mismatched"
+    },
+    {
+        "name":"Maan Meri Jaan",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27337f65266754703fd20d29854",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Hindi%20Mix%2FMaan_Meri_Jaan.mp3?alt=media&token=9b0e2450-2f7e-48c9-95dd-0552bed174ec",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485137f65266754703fd20d29854",
+        "artists":"King"
+    },
+    {
+        "name":"O Bedardeya (From Tu Jhoothi Main Makkaar)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2732a733a9eeabca1a5fb50312b",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Hindi%20Mix%2FO_Bedardeya__From__Tu_Jhoothi_Main_Makkaar__.mp3?alt=media&token=2e83d093-c489-4060-9691-435dbe562295",
+        "smImg":"https://i.scdn.co/image/ab67616d000048512a733a9eeabca1a5fb50312b",
+        "artists":"Pritam,Arijit Singh,Amitabh Bhattacharya"
+    },
+    {
+        "name":"Pehla Pyaar",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273c5545f737b16ad5ee767b62a",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Hindi%20Mix%2FPehla_Pyaar.mp3?alt=media&token=406ad51f-abf6-4bee-bd01-74f7d951ac42",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851c5545f737b16ad5ee767b62a",
+        "artists":"Armaan Malik,Vishal Mishra"
+    },
+    {
+        "name":"Raataan Lambiyan (From Shershaah)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273a75c2f26913099a420050f01",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Hindi%20Mix%2FRaataan_Lambiyan__From__Shershaah__.mp3?alt=media&token=e7f0bee2-d4d2-4cbc-b2c1-e7a0f6209f19",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851a75c2f26913099a420050f01",
+        "artists":"Tanishk Bagchi,Jubin Nautiyal"
+    },
+    {
+        "name":"Tere Pyaar Mein",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273fdd4cc7defb987b4c3aa2d9e",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Hindi%20Mix%2FTere_Pyaar_Mein.mp3?alt=media&token=479a8f5d-ef55-4a22-9e94-8ac8d5d34fc8",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851fdd4cc7defb987b4c3aa2d9e",
+        "artists":"Pritam,Arijit Singh,Amitabh Bhattacharya"
+    },
+    {
+        "name":"Tu Aake Dekhle",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273e0fc847e272a9bf7a04643da",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Hindi%20Mix%2FTu_Aake_Dekhle.mp3?alt=media&token=be904dbd-5632-41dd-a6f7-dfe1d13b0969",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851e0fc847e272a9bf7a04643da",
+        "artists":"King"
+    },
+
+
+
+
+
+
+    {
+        "name":"Anti-Hero",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273bb54dde68cd23e2a268ae0f5",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/PopMix%2FAnti-Hero---Taylor-Swift(PagalWorlld.Com).mp3?alt=media&token=3331f422-ae6f-460a-aeb9-5ede8768c2c9",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851bb54dde68cd23e2a268ae0f5",
+        "artists":"Taylor Swift"
+    },
+    {
+        "name":"Anyone",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2734b02db5cefb177ff97346cf2",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/PopMix%2FAnyone(PaglaSongs).mp3?alt=media&token=df7edd6e-15ec-40b2-9f24-09cf94bd79c2",
+        "smImg":"https://i.scdn.co/image/ab67616d000048514b02db5cefb177ff97346cf2",
+        "artists":"Justin Bieber"
+    },
+    {
+        "name":"As It Was",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273b46f74097655d7f353caab14",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/PopMix%2FAs-It-Was(PagalWorld).mp3?alt=media&token=fe09eb4c-d1cb-4718-a4ca-828a503fd122",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851b46f74097655d7f353caab14",
+        "artists":"Harry Styles"
+    },
+    {
+        "name":"Calm Down (with Selena Gomez)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273a3a7f38ea2033aa501afd4cf",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/PopMix%2FCalm%20Down-(MaxGana).mp3?alt=media&token=442340ea-0d42-4ef1-a1ac-81ab2c9652a9",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851a3a7f38ea2033aa501afd4cf",
+        "artists":"Rema,Selena Gomez"
+    },
+    {
+        "name":"Dandelions",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27397e971f3e53475091dc8d707",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/PopMix%2FDandelions.mp3?alt=media&token=ce274635-055c-42bd-bb65-c41a59f17d06",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485197e971f3e53475091dc8d707",
+        "artists":"Ruth B."
+    },
+    {
+        "name":"Hold On",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/PopMix%2FHold_On.mp3?alt=media&token=bf39c02d-302f-4a6b-b022-91a05fc47626",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+        "artists":"Justin Bieber"
+    },
+    {
+        "name":"MIDDLE OF THE NIGHT",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27353a2e11c1bde700722fecd2e",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/PopMix%2FMIDDLE_OF_THE_NIGHT.mp3?alt=media&token=e0af885f-ffd9-46a0-8333-5a068d78f6dd",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485153a2e11c1bde700722fecd2e",
+        "artists":"Elley Duhé"
+    },
+    {
+        "name":"New",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27346f6975761d26f4c43f9b176",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/PopMix%2FNew.mp3?alt=media&token=15418405-8493-40b8-9f64-47e8b175e2e8",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485146f6975761d26f4c43f9b176",
+        "artists":"Daya"
+    },
+    {
+        "name":"SNAP",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2731391b1fdb63da53e5b112224",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/PopMix%2FSNAP.mp3?alt=media&token=39838b05-6383-48a5-84e1-87cba03e370a",
+        "smImg":"https://i.scdn.co/image/ab67616d000048511391b1fdb63da53e5b112224",
+        "artists":"Rosa Linn"
+    },
+    {
+        "name":"Selfish Love (with Selena Gomez)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2730a4a6bb7959ab3a38ff60324",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/PopMix%2FSelfish_Love__with_Selena_Gomez_.mp3?alt=media&token=d7e3b253-4633-4dfe-9030-7d88dd691542",
+        "smImg":"https://i.scdn.co/image/ab67616d000048510a4a6bb7959ab3a38ff60324",
+        "artists":"DJ Snake,Selena Gomez"
+    },
+    {
+        "name":"Ipad",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273e741cd9dc139d57cc2906186",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/PopMix%2FThe_Chainsmokers_-_iPad-MPOSA.CO.ZA.mp3?alt=media&token=935f3e02-8b3a-4eb8-ae54-455e9c0dd21f",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851e741cd9dc139d57cc2906186",
+        "artists":"The Chainsmokers"
+    },
+
+
+
+
+
+
+
+
+    {
+        "name":"All The Stars (with SZA)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273c027ad28821777b00dcaa888",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/R%26B%20Mix%2FAll_The_Stars__with_SZA_.mp3?alt=media&token=40ec3a0b-713e-45cc-a5b4-e6b25d896565",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851c027ad28821777b00dcaa888",
+        "artists":"Kendrick Lamar,SZA"
+    },
+    {
+        "name":"Hate Me (with Juice WRLD)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273dc854e032e8588d5e75eebc6",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/R%26B%20Mix%2FEllie%20Goulding%20-%20Hate%20Me.mp3?alt=media&token=7a683feb-263c-42dd-8886-38a5dff384ca",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851dc854e032e8588d5e75eebc6",
+        "artists":"Ellie Goulding,Juice WRLD"
+    },
+    {
+        "name":"Thunder",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2735675e83f707f1d7271e5cf8a",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/R%26B%20Mix%2FImagine%20Dragons%20-%20Thunder.mp3?alt=media&token=a0d879b2-f318-4a16-adac-5d97629a035c",
+        "smImg":"https://i.scdn.co/image/ab67616d000048515675e83f707f1d7271e5cf8a",
+        "artists":"Imagine Dragons"
+    },
+    {
+        "name":"In the Name of Love",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2738c77bcf5f5a227d270d23370",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/R%26B%20Mix%2FMartin%20Garrix%20-%20In%20the%20Name%20of%20Love.mp3?alt=media&token=2f2dfa0b-2195-4588-8997-1287b404fe89",
+        "smImg":"https://i.scdn.co/image/ab67616d000048518c77bcf5f5a227d270d23370",
+        "artists":"Martin Garrix,Bebe Rexha"
+    },
+    {
+        "name":"Wolves",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273307910d4242c0d6b1fedf955",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/R%26B%20Mix%2FSelena%20Gomez%20-%20Wolves.mp3?alt=media&token=09c7c60c-bd53-426e-9035-d09b15c206f5",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851307910d4242c0d6b1fedf955",
+        "artists":"Selena Gomez,Marshmello"
+    },
+    {
+        "name":"Still Falling For You",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273dc12b2bd6884bd1de21b6bae",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/R%26B%20Mix%2FEllie%20Goulding%20Still%20Falling%20For%20You%20(englishsongs.wapkiz.com).mp3?alt=media&token=2f9bbd22-bf31-4c8a-a492-e5cd6bdfb57c",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851dc12b2bd6884bd1de21b6bae",
+        "artists":"Ellie Goulding"
+    },
+    {
+        "name":"Call You Mine",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2735e90ff76fd49a23f7333de76",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/R%26B%20Mix%2FThe%20Chainsmokers%20-%20Call%20You%20Mine%20(feat.%20Bebe%20Rexha).mp3?alt=media&token=0773d7dc-0d2d-4f68-8523-88769b505021",
+        "smImg":"Call You Mine",
+        "artists":"The Chainsmokers,Bebe Rexha"
+    },
+    {
+        "name":"Unforgettable",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2738a31195a371b2233456f6c07",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/R%26B%20Mix%2FUnforgettable%20(mp3tau.wapkiz.site).mp3?alt=media&token=2f1135e7-cbe2-401a-b976-bcc1fffd9939",
+        "smImg":"https://i.scdn.co/image/ab67616d000048518a31195a371b2233456f6c07",
+        "artists":"French Montana,Swae Lee"
+    },
+    {
+        "name":"up at night (feat. justin bieber)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273ec32beffe58d9335b1975cb1",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/R%26B%20Mix%2FUp-At-Night-SabPagal.mp3?alt=media&token=2b748948-5f83-4bbd-80a6-25a4ef408d58",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851ec32beffe58d9335b1975cb1",
+        "artists":"Kehlani,Justin Bieber"
+    },
+    {
+        "name":"When You're Gone",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273dad0775943c1a826bfed3117",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/R%26B%20Mix%2FWhen-Youre-Gone-SabPagal.mp3?alt=media&token=75464548-edf5-4387-bd45-25cc5b3e0983",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851dad0775943c1a826bfed3117",
+        "artists":"Shawn Mendes"
+    },
+    {
+        "name":"Dusk Till Dawn (feat. Sia)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2732bdcb339402ebd78651f09c8",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/R%26B%20Mix%2FZAYN%20-%20Dusk%20Till%20Dawn%20(feat.%20Sia)%20(Radio%20Edit).mp3?alt=media&token=b489d123-9006-4017-9c20-60b038404b24",
+        "smImg":"https://i.scdn.co/image/ab67616d000048512bdcb339402ebd78651f09c8",
+        "artists":"ZAYN,Sia"
+    },
+
+
+
+    
+
+    {
+        "name":"Phir Se Ud Chala",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27354e544672baa16145d67612b",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/RomanticMix%2F01%20-%20Phir%20Se%20Ud%20Chala(MyMp3Song.Com).mp3?alt=media&token=a0f08770-1fb8-4a78-bea2-e709c817bda0",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485154e544672baa16145d67612b",
+        "artists":"Mohit Chauhan"
+    },
+    {
+        "name":"Sanam Re",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273be42c9c9b63ed5ace22af441",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/RomanticMix%2F01%20Sanam%20Re%20(Title%20Song)%20Arijit%20Singh%20190Kbps.mp3?alt=media&token=21d1ecb2-a7e0-42fa-b539-aa6d9c45f2b8",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851be42c9c9b63ed5ace22af441",
+        "artists":"Arijit Singh,Mithoon"
+    },
+    {
+        "name":"Kabhi Jo Baadal Barse",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27334bb47a8b7da4bcb773400a1",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/RomanticMix%2F01_-_Kabhi_Jo_Baadal_Barse(wapking.cc).mp3?alt=media&token=a619e835-38c8-4dab-90cc-8eb2f707034b",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485134bb47a8b7da4bcb773400a1",
+        "artists":"Arijit Singht"
+    },
+    {
+        "name":"Jab Tak (Redux)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27302dde7bfff94df00c8b76eb4",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/RomanticMix%2FJab%20Tak%20%20Redux%20-(Mr-Jatt.com).mp3?alt=media&token=7e22f0e3-726e-4872-a384-dd5ce31a2ce2",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485102dde7bfff94df00c8b76eb4",
+        "artists":"Armaan Malik"
+    },
+    {
+        "name":"Love Me Thoda Aur",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273a51f57ce4e92c152479caab7",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/RomanticMix%2FLove%20Me%20Thoda%20Aur%20-%20Monali%20Thakur.mp3?alt=media&token=173c3f19-8173-4a9f-a4b0-28ae3ec80fd3",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851a51f57ce4e92c152479caab7",
+        "artists":"Arijit Singh,Pritam"
+    },
+    {
+        "name":"Shayad",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273095191f6b96fd9eff585befc",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/RomanticMix%2FShayad%20-%20Love%20Aaj%20Kal.mp3?alt=media&token=89ee0b1f-5f22-4b6d-ba9c-7f64b7e3f499",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851095191f6b96fd9eff585befc",
+        "artists":"Pritam,Arijit Singh"
+    },
+    {
+        "name":"Soch Na Sake",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2736b047c1401c8c18a54e4377d",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/RomanticMix%2FSoch%20Na%20Sake%20-%20Airlift.mp3?alt=media&token=46dd867a-e97c-42d3-b37e-ac88eafd3052",
+        "smImg":"https://i.scdn.co/image/ab67616d000048516b047c1401c8c18a54e4377d",
+        "artists":"Amaal Mallik,Arijit Singh,Tulsi Kumar"
+    },
+    {
+        "name":"Teri Jhuki Nazar",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2737e25e913e1df98dbec43e4a2",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/RomanticMix%2FTeri-Jhuki-Nazar%20(SongsMp3.Com).mp3?alt=media&token=5831f5fa-aa42-4386-ae7f-fdea365de97b",
+        "smImg":"https://i.scdn.co/image/ab67616d000048517e25e913e1df98dbec43e4a2",
+        "artists":"Pritam,Shafqat Amanat Ali"
+    },
+    {
+        "name":"Tu Hi Yaar Mera (From Pati Patni Aur Woh)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2739c48ffd6b1a9a43b9a74c66c",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/RomanticMix%2FTu%20Hi%20Yaar%20Mera%20-%20Pati%20Patni%20Aur%20Woh.mp3?alt=media&token=32811da1-796c-49e6-9917-ef5401ba713d",
+        "smImg":"https://i.scdn.co/image/ab67616d000048519c48ffd6b1a9a43b9a74c66c",
+        "artists":"Arijit Singh,Neha Kakkar,Rochak Kohli"
+    },
+    {
+        "name":"Yeh Fitoor Mera",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2736c678e8928cc0add9fc23bfd",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/RomanticMix%2FYeh%20Fitoor%20Mera%20-%20Fitoor%20(Arijit%20Singh)%20320Kbps.mp3?alt=media&token=81235752-a593-4419-893c-1b3c9fcd1847",
+        "smImg":"https://i.scdn.co/image/ab67616d000048516c678e8928cc0add9fc23bfd",
+        "artists":"Arijit Singh"
+    },
+    {
+        "name":"Zaalima",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273534aff23aae30de81739be41",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/RomanticMix%2FZaalima%20-%20Raees%20(Arijit%20Singh)%20190kbps.mp3?alt=media&token=eff09280-d80a-45ae-8428-db250f52b6e2",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851534aff23aae30de81739be41",
+        "artists":"Arijit Singh,Harshdeep Kaur"
+    },
+
+    
+
+
+    {
+
+        "name":"Bones",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273813713582dcc508e7d5073c4",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Top%20Tracks%202022%20India%2FBones.mp3?alt=media&token=a4d3bc32-540a-4b21-b200-59bc29c6937b",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851813713582dcc508e7d5073c4",
+        "artists":"Imagine Dragons"
+    },
+    {
+
+        "name":"DESIRES",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273852d4ace5ba8cf082b045c38",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Top%20Tracks%202022%20India%2FDESIRES.mp3?alt=media&token=28dbb04e-5805-42f9-9e83-7c320007109a",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851852d4ace5ba8cf082b045c38",
+        "artists":"AP Dhillion,Gurinder Gill"
+    },
+    {
+
+        "name":"Excuses",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2735b74e703d6ffb2ea16860c86",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Top%20Tracks%202022%20India%2FExcuses.mp3?alt=media&token=0313f471-319a-4c35-b5fb-b19627e1afa6",
+        "smImg":"https://i.scdn.co/image/ab67616d000048515b74e703d6ffb2ea16860c86",
+        "artists":"AP Dhillion,Gurinder Gill,Intense"
+    },
+    {
+
+        "name":"Gul",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27346b1b675145743583384dc24",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Top%20Tracks%202022%20India%2FGul.mp3?alt=media&token=cc683c79-c83e-4033-8703-4a5c8d7dcf25",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485146b1b675145743583384dc24",
+        "artists":"Anuv Jain"
+    },
+    {
+
+        "name":"Until I Found You",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2738792c3e96f8ab97a767c5d0c",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Top%20Tracks%202022%20India%2FUntil_I_Found_You.mp3?alt=media&token=e6851826-eacd-4248-916d-43136a96d61e",
+        "smImg":"https://i.scdn.co/image/ab67616d000048518792c3e96f8ab97a767c5d0c",
+        "artists":"https://i.scdn.co/image/ab67616d000048518792c3e96f8ab97a767c5d0c"
+    },
+    {
+
+        "name":"idfc",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2736ac1ad714f815e19c2372401",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Top%20Tracks%202022%20India%2Fidfc.mp3?alt=media&token=f5d4921f-aa38-459b-9a83-6b5dac5511d9",
+        "smImg":"https://i.scdn.co/image/ab67616d000048516ac1ad714f815e19c2372401",
+        "artists":"blackbear"
+    },
+    {
+
+        "name":"Summer High",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273b0543bafc8adee31880acfb9",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Top%20Tracks%202022%20India%2FSummer_High.mp3?alt=media&token=ab89ed21-e531-444a-ab56-15791de00d4e",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851b0543bafc8adee31880acfb9",
+        "artists":"AP Dhillion"
+    },
+    {
+
+        "name":"Manjha",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273dea88e870d30a4da51065bf5",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Top%20Tracks%202022%20India%2FManjha.mp3?alt=media&token=afd2bac0-e8ff-4385-a4f5-7ad35cc65a62",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851dea88e870d30a4da51065bf5",
+        "artists":"Vishal Mishra"
+    },
+    {
+
+        "name":"STAY (with Justin Bieber)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27341e31d6ea1d493dd77933ee5",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Top%20Tracks%202022%20India%2FStay_320(PagalWorld).mp3?alt=media&token=d2299668-6cdc-435f-8085-7abf7583216f",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485141e31d6ea1d493dd77933ee5",
+        "artists":"the Kid LAROI,Justin Bieber"
+    },
+    {
+
+        "name":"Ranjha (From Shershaah)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27309426d9ae9d8d981735ebc5e",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Top%20Tracks%202022%20India%2FRanjha__From__Shershaah__.mp3?alt=media&token=e269ba30-5191-4e8f-81db-f936b796577b",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485109426d9ae9d8d981735ebc5e",
+        "artists":"Jasleen Royal,B Praak,Romy,Anvita Dut"
+    },
+    {
+
+        "name":"Infinity",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273a9897f65d1ead1be10a51e3f",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/Top%20Tracks%202022%20India%2FInfinity_320(PagalWorld.com.pe).mp3?alt=media&token=57e30eab-1876-48f5-89fd-3014bc26bf4b",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851a9897f65d1ead1be10a51e3f",
+        "artists":"James Young"
+    },
+
+
+
+    
+    {
+        "name":"Dil Hi Toh Hai",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2734953bc0e0256eb3c382f538c",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/This%20is%20Arijit%20Singh%2F01%20-%20Dil%20Hi%20Toh%20Hai%20-%20The%20Sky%20Is%20Pink%20(2019).mp3?alt=media&token=e54df21f-1b47-414c-a380-ad4f1b1b7965",
+        "smImg":"https://i.scdn.co/image/ab67616d000048514953bc0e0256eb3c382f538c",
+        "artists":"Pritam,Arijit Singh,Antara Mitra"
+    },
+    {
+        "name":"Ik Vaari Aa",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2732e44757f6ea4eb34d2a0d42f",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/This%20is%20Arijit%20Singh%2F01%20Ik%20Vaari%20Aa%20-%20Raabta%20(Arijit%20Singh)%20320Kbps.mp3?alt=media&token=3050f27c-314a-42d5-9a4a-0a9c7cf96edb",
+        "smImg":"https://i.scdn.co/image/ab67616d000048512e44757f6ea4eb34d2a0d42f",
+        "artists":"Pritam,Arijit Singh"
+    },
+    {
+        "name":"Khamoshiyan",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2738d07544fddf5b7d9a1e41554",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/This%20is%20Arijit%20Singh%2F01%20Khamoshiyan%20(Title%20Song)%20-%20Arijit%20Singh%20-.mp3?alt=media&token=a01662e1-0bf7-41a9-8336-e441999989ed",
+        "smImg":"https://i.scdn.co/image/ab67616d000048518d07544fddf5b7d9a1e41554",
+        "artists":"Jeet Gannguli,Arijit Singh"
+    },
+    {
+        "name":"Galti Se Mistake (From Jagga Jasoos)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273f10ef7774581590cf480ed5c",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/This%20is%20Arijit%20Singh%2F02%20Galti%20Se%20Mistake%20-%20Jagga%20Jasoos%20(Arijit%20Singh)%20190Kbps.mp3?alt=media&token=9ca48145-724a-489e-94f7-f0d5e4092204",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851f10ef7774581590cf480ed5c",
+        "artists":"Pritam,Arijit Singh,Amit Mishra"
+    },
+    {
+        "name":"Itni Si Baat Hain",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273ac47a8ab83d832318df5a9fc",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/This%20is%20Arijit%20Singh%2F02%20Itni%20Si%20Baat%20Hain.mp3?alt=media&token=394b392f-2274-4ffd-b934-91b0e27ace67",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851ac47a8ab83d832318df5a9fc",
+        "artists":"Pritam,Arijit Singh,Antara Mitra"
+    },
+    {
+        "name":"Nashe Si Chadh Gayi",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273f5dc36d5000145375a41c3b8",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/This%20is%20Arijit%20Singh%2F02%20Nasshhe%20Si%20Chdh%20Gyi%20(Arijit%20Singh)%20190Kbps.mp3?alt=media&token=98c5f962-f29c-495e-b42a-8f26c2f42bf7",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851f5dc36d5000145375a41c3b8",
+        "artists":"Vishal-Shekhar,Arijit Singh"
+    },
+    {
+        "name":"Meet",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2731a660a361e14db70452a82a6",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/This%20is%20Arijit%20Singh%2F03%20Meet%20-%20Simran%20(Arijit%20Singh)%20190Kbps.mp3?alt=media&token=231f12b9-b13c-48d1-8d22-c704657292cf",
+        "smImg":"https://i.scdn.co/image/ab67616d000048511a660a361e14db70452a82a6",
+        "artists":"Arijit Singh"
+    },
+    {
+        "name":"Tu Hi Hai",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b27349079e6945b600abe668cae4",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/This%20is%20Arijit%20Singh%2F03%20Tu%20Hi%20Hai%20(Arijit%20Singh)%20190Kbps.mp3?alt=media&token=0f0ae8de-cc06-433a-9c5d-83af771f64d3",
+        "smImg":"https://i.scdn.co/image/ab67616d0000485149079e6945b600abe668cae4",
+        "artists":"Amit Trivedi,Arijit Singh"
+    },
+    {
+        "name":"Phir Kabhi-Reprise",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b273a5587289f9cedc85d1bab2d0",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/This%20is%20Arijit%20Singh%2F09%20Phir%20Kabhi%20(Reprise)%20Arijit%20Singh%20190Kbps_1.mp3?alt=media&token=34feeb43-fda3-4d28-b084-0f6cc38218b0",
+        "smImg":"https://i.scdn.co/image/ab67616d00004851a5587289f9cedc85d1bab2d0",
+        "artists":"Arijit Singh,Amaal Mallik"
+    },
+    {
+        "name":"Rahogi Meri (From Love Aaj Kal)",
+        "CoverImg":"https://i.scdn.co/image/ab67616d0000b2732d4645967e4da6be0db2387d",
+        "audioURL":"https://firebasestorage.googleapis.com/v0/b/spotify-403ae.appspot.com/o/This%20is%20Arijit%20Singh%2FRahogi%20Meri%20-%20Love%20Aaj%20Kal.mp3?alt=media&token=e309790a-f665-4cd0-9f2f-c2b98c2e8a32",
+        "smImg":"https://i.scdn.co/image/ab67616d000048512d4645967e4da6be0db2387d",
+        "artists":"Pritam,Arijit Singh"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
