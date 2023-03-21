@@ -1,10 +1,9 @@
 import React from 'react'
-import avatarLogo from '../content/avatar.png';
-import downLogo from '../content/caret-down.png'
 import greetingTime from 'greeting-time';
 import likedLogo from '../content/liked-songs-300.png';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import StickyBar from './StickyBar';
 
 export default function RightComponent() {
 
@@ -20,11 +19,7 @@ export default function RightComponent() {
 
   return (
     <div className='bg-[#111111] min-h-screen  w-screen '>
-      <div className=' sticky top-0 h-14 bg-[#1D0D46] flex flex-row px-10 items-center justify-end  box-border'>
-        <div className='bg-[#090414] flex items-center rounded-2xl w-30 px-2'>
-        <div className='bg-[#535353] mr-4 rounded-[50%] h-8 w-8 flex items-center justify-center'><img src={avatarLogo} alt='logo' className='w-4'></img></div><div className='text-white font-bold text-sm mr-4'>{user.name}</div><img className='w-3' alt='logo' src={downLogo}></img>
-        </div>
-      </div>
+      <StickyBar user={user}></StickyBar>
       <div className='bg-gradient-to-b from-[#1e0f45] via-[#1a1033] to-[#131217]  px-10 flex-col'>
         <div className='text-white text-3xl font-bold font-poppins mb-6' >{greet}</div>
         <div className='grid grid-cols-3 max-[937px]:grid-cols-2 max-[834px]:grid-cols-1 gap-4 text-white font-semibold'>

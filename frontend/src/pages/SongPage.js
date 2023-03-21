@@ -18,10 +18,7 @@ export default function SongPage() {
 
 
   return (
-    <div className='flex h-[100%] flex-row  select-none'>
-      <LeftComponent></LeftComponent>
       <RightComponent></RightComponent>
-    </div>
   )
 }
 

@@ -6,6 +6,7 @@ import Login,{action as loginAction} from './pages/Login';
 import SignUp,{action as SignupAction} from './pages/SignUp';
 import SongPage,{loader as dataAction} from './pages/SongPage';
 import Playlist from './pages/Playlist';
+import Root from './pages/Root';
 
 const router=createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router=createBrowserRouter([
         path:'signup',element:<SignUp></SignUp>,action:SignupAction
       },
       {
-        path:'play',id:'songPage',loader:dataAction,children:[
+        path:'play',id:'songPage',element:<Root></Root>,loader:dataAction,children:[
           {
             index:true,element:<SongPage></SongPage>
           },
