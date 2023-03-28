@@ -2,6 +2,7 @@ import React from 'react'
 import SpotifyLogo from '../content/spotifylogo.png'
 import chroma from 'chroma-js'
 import playbutton from '../content/play-button.png'
+import MusicBar from './MusicBar'
 
 export default function Track({playlist}) {
 
@@ -14,6 +15,9 @@ export default function Track({playlist}) {
 
   console.log(playlist);
 
+  const innerHeight=window.innerHeight-10;
+  let innerValue=innerHeight.toString()+'px'
+
   const lengthP=playlist.playListSongs.length;
 
 
@@ -22,7 +26,7 @@ export default function Track({playlist}) {
 
   return (
     <>
-    <div className='h-[100%] w-[100%] bg-[#121212]'>
+    <div style={{'--hgt':innerValue}} className='h-[var(--hgt)] overflow-y-scroll w-[100%] bg-[#121212] scrollbar scrollbar-thumb-[#5A5A5A] scrollbar-track-[#11111100]  hover:scrollbar-thumb-[#757575]'>
     <div className="grid gap-2 grid-cols-[1fr,4fr] w-[100%] px-12 py-14 pb-32  bg-gradient-to-b from-[var(--fro)]  to-[var(--to)]" style={{'--fro':from,'--to':value}}  >
         <div className='flex items-center justify-center'>
           <img alt='logo' className='w-60' src={playlist.img}></img>
@@ -40,19 +44,22 @@ export default function Track({playlist}) {
             </div>
         </div>
       </div>
-      <div className='bg-[#111111a0] px-10 h-[40rem] relative -top-24'>
-        <div className='h-[13%]  flex items-center justify-start'>
+      <div className='bg-[#111111a0] px-10  relative -top-24'>
+        <div className='h-[13%] py-5  flex items-center justify-start'>
           <div className='group'>
             <img alt='play'className='w-14  group-hover:scale-[1.1] ease-in-out duration-300' src={playbutton}>
               </img>
           </div>
           </div>
-          <div className='grid grid-cols-[1fr,7fr,6fr,1fr] mt-6'>
+          <div className='grid grid-cols-[1fr,19fr,18fr] px-6 mt-6 mb-6'>
             <div className='text-[#9E9D9D] text-sm font-poppins'>#</div>
-            <div className='text-[#9E9D9D] text-sm font-poppins'>Title</div>
-            <div className='text-[#9E9D9D] text-sm font-poppins'>Album</div>
-            <div className='text-[#9E9D9D] text-sm font-poppins'>Duration</div>
+            <div className='text-[#9E9D9D] text-sm font-poppins '>Title</div>
+            <div className='text-[#9E9D9D] text-sm font-poppins flex justify-end'>Album</div>
           </div>
+          { playlist.playListSongs.map((data,index)=>{
+            return <MusicBar data={data} val={index+1} key={index}></MusicBar>
+
+          })}
       </div>
       </div>
       </>
