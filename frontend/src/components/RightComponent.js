@@ -39,8 +39,8 @@ export default function RightComponent() {
           }
         </div>
       </div>
-      <div className='px-10 font-poppins text-white mt-10'>
-          <div className='font-semibold text-2xl mb-8'>Made for {user.name}</div>
+      <div className='px-10 pb-24 font-poppins text-white mt-10'>
+          <div className='font-semibold text-2xl mb-5'>Made for {user.name}</div>
           <div className='grid gap-4 grid-cols-6 max-[1334px]:grid-cols-3 max-[1030px]:grid-cols-2'>
            {
             playlist.map((data,index)=>{

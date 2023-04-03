@@ -3,17 +3,19 @@ import SpotifyLogo from '../content/spotifylogo.png'
 import chroma from 'chroma-js'
 import playbutton from '../content/play-button.png'
 import MusicBar from './MusicBar'
+import { useSelector } from 'react-redux'
+
+
 
 export default function Track({playlist}) {
 
+  const ActiveValue=useSelector((state)=>state.controller.isplaying);
 
   let colors=[{title:'This is Arijit Singh',color:'#563A50'},{title:'Trending Now India',color:'#04DC04'},{title:'Hindi Mix',color:'#CF1485'},{title:'R&B Mix',color:'#C3BBAC'},{title:"Valentine's Hits",color:'#05B993'},{title:'Pop Mix',color:'#1B4AA6'}];
-
  const reqCol=colors.find((val)=>val.title.trim()===playlist.name.trim())
   const from=reqCol.color;
   const value=chroma.hex(from).darken(2).hex();
 
-  console.log(playlist);
 
   const innerHeight=window.innerHeight-10;
   let innerValue=innerHeight.toString()+'px'
@@ -57,7 +59,7 @@ export default function Track({playlist}) {
             <div className='text-[#9E9D9D] text-sm font-poppins flex justify-end'>Album</div>
           </div>
           { playlist.playListSongs.map((data,index)=>{
-            return <MusicBar data={data} val={index+1} key={index}></MusicBar>
+            return <MusicBar ActiveValue={ActiveValue} playlist={playlist} data={data} val={index+1} key={index}></MusicBar>
 
           })}
       </div>
