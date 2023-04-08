@@ -21,11 +21,6 @@ export default function MusicBar({ActiveValue,data,val,playlist}) {
       dispatch(controllerAction.initializeIsPlaying(playlist.playListSongs))
       const audio=new Audio(data.audioURL);
 
-      audio.onloadeddata=function()
-      {
-        dispatch(controllerAction.setCurSongDuration(audio.duration));
-      }
-
       dispatch(controllerAction.playSong(audio));;
       dispatch(controllerAction.setActivePlaying(val-1));
       dispatch(controllerAction.setCurrentPlayingName(playlist.name))

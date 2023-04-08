@@ -10,7 +10,7 @@ const controllerSlice=createSlice({
         CurrplayingName:undefined,
         IsBarVisible:false,
         currPlayingSongUI:undefined,
-        currSongDuration:undefined     
+        SongBarWidth:0,
     },
     reducers:{
         setUser(state,action)
@@ -53,13 +53,13 @@ const controllerSlice=createSlice({
         {
             state.currPlayingSongUI=action.payload;
         },
-        setToScrollPosition(state,action)
+        setSongBarWidth(state,action)
         {
-            state.CurrplayingName.currentTime=action.payload;
+            state.SongBarWidth=action.payload;
         },
-        setCurSongDuration(state,action)
+        setSongDuration(state,action)
         {
-            state.currSongDuration=action.payload;
+            state.currSong.currentTime=action.payload;
         }
     }
 

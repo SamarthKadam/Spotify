@@ -4,86 +4,12 @@ import {AiFillStepForward,AiFillStepBackward} from 'react-icons/ai'
 import {GrPlayFill} from 'react-icons/gr'
 import {IoMdPause} from 'react-icons/io'
 import {SlVolume1,SlVolumeOff} from 'react-icons/sl'
-import { useState,useRef,useEffect } from 'react'
+import VolumeBar from '../util/VolumeBar'
 import { useSelector } from 'react-redux'
-import { useDispatch } from 'react-redux'
-import { controllerAction } from '../store/controllerSlice'
+import PlayerBar from '../util/PlayerBar'
 
-let widthBar=0;
-let VolBar=80;
 export default function MusicBar() {
-
-
-
-  const dispatch=useDispatch();
   const data=useSelector(state=>state.controller.currPlayingSongUI);
-  const duration=useSelector(state=>state.controller.currSongDuration)
-  const music=useSelector(state=>state.controller.currSong);
-
-
-    
-    const[playingBarCur,setPlayingBarCur]=useState(0);
-    const[palyingVolume,setPlayingVolume]=useState(80);
-    const LenRef=useRef();
-    const VolBarRef=useRef();
-
-
-  function getOffset(e)
-  {
-    widthBar=LenRef.current.clientWidth;
-    setPlayingBarCur(e.nativeEvent.offsetX);
-  }
-
-
-  function ChangeVolume(e)
-  {
-    setPlayingVolume(e.nativeEvent.offsetX);
-  }
-
-
-
-  let CompletedWidth;
-  let CompletedVolWidth;
-  if(playingBarCur===0 && widthBar===0)
-  {
-    CompletedWidth=0+'%';
-  }
-  else{
-    console.log(playingBarCur,widthBar);
-    CompletedWidth=(playingBarCur/widthBar)*100+'%';
-  }
-
-  if(palyingVolume===0)
-  {
-    CompletedVolWidth=0+'%';
-  }
-  else{
-    CompletedVolWidth=(palyingVolume/VolBar)*100+'%';
-  }
-
-
-
-  useEffect(()=>{
-
-   const timerUpd=setInterval(()=>{
-      let value=(music.currentTime/music.duration)*100
-       widthBar=LenRef.current.clientWidth;
-     let assignedValue=Math.trunc((value*widthBar)/100);
-     setPlayingBarCur(assignedValue);
-     
-    },1000)
-
-    return()=>{
-      clearInterval(timerUpd)
-    }
-
-  },[music.currentTime,music.duration,])
-
-
-
-  const hours=(Math.trunc(duration/60))
-  const minutes=(Math.trunc(duration%60)).toString().padStart(2,'0');
-
   return (
     <div className='px-5 h-[13%] items-center grid fixed bottom-0 z-50 w-[100%] bg-[#181818] grid-cols-[1fr,2fr,1fr]'>
       <div className='flex items-center'>
@@ -105,23 +31,13 @@ export default function MusicBar() {
         </div>
         <div className='grid w-[100%] grid-cols-[1fr,10fr,1fr]  items-center text-white'>
           <div className='text-[12px] text-center text-[#BABABA]'>0:00</div>
-          <div className='relative group'>
-            <div style={{'--widthB':CompletedWidth}} className=' after:-top-1 after:left-[var(--widthB)] after:z-50 after:absolute after:w-3 after:h-3 after:rounded-[50%] after:bg-white '></div>
-            <div ref={LenRef} onClick={getOffset} className='w-[100%]  relative  overflow-hidden h-1 rounded-sm bg-[#5E5E5E]'>
-              <div style={{'--widthB':CompletedWidth}} className='w-[var(--widthB)] group-hover:bg-[#1D9C4A] h-[100%] bg-white'></div>
-            </div>
-          </div>
-          <div className='text-[12px] text-center text-[#BABABA]'>{hours}:{minutes}</div>
+         <PlayerBar URL={data.audioURL} isVolume={false}></PlayerBar>
+          <div className='text-[12px] text-center text-[#BABABA]'>4:22</div>
         </div>
       </div>
       <div className='flex justify-end items-center' >
         <div className='mr-2'><SlVolume1 size={17} color='white'></SlVolume1></div>
-        <div className='relative group'>
-          <div style={{'--VolBar':CompletedVolWidth}} className='after:-top-1 after:left-[var(--VolBar)] after:z-50 after:absolute after:w-3 after:h-3 after:rounded-[50%] after:bg-white'></div>
-        <div ref={VolBarRef} onClick={ChangeVolume} className='w-20 overflow-hidden rounded h-1 bg-[#5E5E5E]'>
-          <div style={{'--VolBar':CompletedVolWidth}} className='w-[var(--VolBar)] group-hover:bg-[#1D9C4A] h-[100%] bg-white'></div>
-        </div>
-        </div>
+        <VolumeBar></VolumeBar>
       </div>
     </div>
   )
