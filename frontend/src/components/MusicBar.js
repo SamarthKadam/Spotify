@@ -10,6 +10,7 @@ export default function MusicBar({ActiveValue,data,val,playlist}) {
   const dispatch=useDispatch();
   const AlbumName=useSelector((state)=>state.controller.CurrplayingName);
   const isBarShowing=useSelector((state)=>state.controller.IsBarVisible);
+  const isPlaying=useSelector(state=>state.controller.isCurrentPlay);
 
     function playSong()
     {
@@ -17,7 +18,13 @@ export default function MusicBar({ActiveValue,data,val,playlist}) {
       {
         dispatch(controllerAction.showBar());
       }
-
+      
+      console.log("checking is playing",isPlaying);
+      if(isPlaying)
+      {
+        console.log("hinga")
+      dispatch(controllerAction.togglePlaying());
+      }
       dispatch(controllerAction.initializeIsPlaying(playlist.playListSongs))
       const audio=new Audio(data.audioURL);
 

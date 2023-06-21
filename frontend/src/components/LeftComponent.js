@@ -11,7 +11,7 @@ import Bar from './Bar';
 
 export default function LeftComponent() {
   return (
-    <div className='bg-black min-h-screen flex flex-col w-72 px-4 box-border'>
+    <div className='bg-black min-h-screen flex flex-col  w-[20%] px-4 box-border'>
         <img className='w-36 -mt-10'alt='logo' src={image}></img>
         <div className='flex flex-col mb-10'>
             <Bar loc='/play' logo={homeLogo} text='Home'></Bar>

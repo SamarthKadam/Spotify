@@ -11,6 +11,7 @@ const controllerSlice=createSlice({
         IsBarVisible:false,
         currPlayingSongUI:undefined,
         SongBarWidth:0,
+        isCurrentPlay:false
     },
     reducers:{
         setUser(state,action)
@@ -60,6 +61,20 @@ const controllerSlice=createSlice({
         setSongDuration(state,action)
         {
             state.currSong.currentTime=action.payload;
+        },
+        setPlayStop(state,action)
+        {
+            if(!state.currSong.paused)
+            {
+                state.currSong.pause();
+            }
+            else{
+                state.currSong.play();
+            }
+        },
+        togglePlaying(state,action)
+        {
+            state.isCurrentPlay=!state.isCurrentPlay;
         }
     }
 
