@@ -40,3 +40,6 @@ function App() {
   return <RouterProvider router={router}></RouterProvider>
 }
 export default App;
+
+
+///featuers to implement 1>next,prevPlay 2>search 3>likesongs

@@ -19,10 +19,8 @@ export default function MusicBar({ActiveValue,data,val,playlist}) {
         dispatch(controllerAction.showBar());
       }
       
-      console.log("checking is playing",isPlaying);
       if(isPlaying)
       {
-        console.log("hinga")
       dispatch(controllerAction.togglePlaying());
       }
       dispatch(controllerAction.initializeIsPlaying(playlist.playListSongs))
@@ -34,7 +32,15 @@ export default function MusicBar({ActiveValue,data,val,playlist}) {
       dispatch(controllerAction.setCurrPlayingSong(data));
     }
 
-    const isActive=ActiveValue[val-1] && AlbumName===playlist.name
+
+//     function ChanngePlayingMode()
+//  {
+//   dispatch(controllerAction.togglePlaying());
+//   dispatch(controllerAction.setPlayStop());
+//  }
+
+    const isActive=ActiveValue[val-1]&&AlbumName===playlist.name
+    // isActive?ChanngePlayingMode:playSong
 
 
   return (

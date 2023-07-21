@@ -6,6 +6,7 @@ import MusicBar from './MusicBar'
 import { useSelector } from 'react-redux'
 import {IoIosArrowBack, IoIosArrowForward} from 'react-icons/io'
 import {useNavigate} from 'react-router-dom'
+import { useEffect,useState} from 'react'
 
 
 
@@ -21,7 +22,22 @@ export default function Track({playlist}) {
   const value=chroma.hex(from).darken(2).hex();
 
 
-  const innerHeight=window.innerHeight-10;
+  const[innerHeight,setInnerHeight]=useState(window.innerHeight-10);
+
+  const handleResize=()=>{
+    setInnerHeight(window.innerHeight-10);
+  }
+
+  useEffect(()=>{
+    window.addEventListener('resize',handleResize);
+
+    return ()=>{
+      window.removeEventListener('resize',handleResize);
+    }
+
+  },[])
+
+  // const innerHeight=window.innerHeight-10;
   let innerValue=innerHeight.toString()+'px'
 
   const lengthP=playlist.playListSongs.length;

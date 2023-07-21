@@ -42,6 +42,10 @@ const controllerSlice=createSlice({
         {
             state.isplaying[action.payload]=true;
         },
+        setInActivePlaying(state,action)
+        {
+            state.isplaying[action.payload]=false;
+        },
         setCurrentPlayingName(state,action)
         {
             state.CurrplayingName=action.payload;
@@ -75,7 +79,7 @@ const controllerSlice=createSlice({
         togglePlaying(state,action)
         {
             state.isCurrentPlay=!state.isCurrentPlay;
-        }
+        },
     }
 
 })
