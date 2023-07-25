@@ -2,7 +2,7 @@
  Spotify Clone - Full Stack Music Streaming
  
 Welcome to the Spotify Clone project, an immersive full-stack music streaming
-<img align="right" width="300" height="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfVoqbXvQlq8MPVaqn3PorKrb1Ue6qvAWYBg&usqp=CAU">
+<img  width="300" height="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN0G8-BhiVhItEeTX_76fEt2-uB-SfeC2T6w&usqp=CAU">
 
 
 Key Features:
