@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux'
 import { useRef } from 'react';
 import { useDispatch } from 'react-redux';
 import { controllerAction } from '../store/controllerSlice';
+import getNextPlayingSong from '../helper/nextPlay';
 
 let endingMinutes;
 let endingSeconds;
@@ -14,6 +15,9 @@ export default function PlayerBar(){
     const volumeWidth=useSelector((state)=>state.controller.SongBarWidth);
     const audio=useSelector((state)=>state.controller.currSong)
     const widthPlayer=useRef();
+    const playlist=useSelector((state)=>state.controller.playlist);
+    const data=useSelector(state=>state.controller.currPlayingSongUI);
+    const AlbumName=useSelector((state)=>state.controller.CurrplayingName);
 
 
 
@@ -32,6 +36,26 @@ export default function PlayerBar(){
 
         startingMinutes=Math.trunc(currentDuration/60);
         startingSeconds=Math.trunc(currentDuration%60).toString().padStart(2,'0');
+
+        if(currentDuration===duration)
+        {
+          clearInterval(timer);
+
+
+
+          const {inde,value,playListSongs}=getNextPlayingSong(data,playlist,AlbumName);
+          dispatch(controllerAction.initializeIsPlaying(playListSongs))
+          const audio=new Audio(value.audioURL);
+         
+          dispatch(controllerAction.playSong(audio));
+          dispatch(controllerAction.setActivePlaying(inde));
+          dispatch(controllerAction.setCurrentPlayingName(AlbumName))
+          dispatch(controllerAction.setCurrPlayingSong(value));
+
+
+
+          console.log("end of the song");
+        }
 
         if(currentDuration===0)
         {

@@ -43,7 +43,7 @@ function backPlay()
  dispatch(controllerAction.setCurrPlayingSong(value));
 }
 
-function frontPlay()
+ function frontPlay()
 {
  const {inde,value,playListSongs}=getNextPlayingSong(data,playlist,AlbumName);
  dispatch(controllerAction.initializeIsPlaying(playListSongs))
