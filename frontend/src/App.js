@@ -7,12 +7,16 @@ import SignUp,{action as SignupAction} from './pages/SignUp';
 import SongPage,{loader as dataAction} from './pages/SongPage';
 import Playlist from './pages/Playlist';
 import Root from './pages/Root';
+import LikedSongs from './pages/LikedSongs';
 
 const router=createBrowserRouter([
   {
     path:'/',errorElement:<ErrorPage isError={0}></ErrorPage>,children:[
       {
         path:'home',element:<HomePage></HomePage>
+      },
+      {
+        path:'likedSongs',element:<LikedSongs></LikedSongs>
       },
       {
         path:'login',element:<Login></Login>,action:loginAction
