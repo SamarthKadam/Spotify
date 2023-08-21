@@ -30,7 +30,8 @@ const userSchema=new mongoose.Schema({
     },
     likedSongs:{
         type:[mongoose.Schema.ObjectId],
-        required:[true,'A user must have liked songs']
+        required:[true,'A user must have liked songs'],
+        ref: 'songs'
     }
 })
 
@@ -42,11 +43,11 @@ userSchema.methods.correctPassword=async function(passwordDB,typedPassword)
 }
 
 
-userSchema.pre('save',async function(next){
+// userSchema.pre('save',async function(next){
 
-    this.password=await bcrypt.hash(this.password,12);
-    next();
-})
+//     this.password=await bcrypt.hash(this.password,12);
+//     next();
+// })
 
 const users=mongoose.model('users',userSchema);
 

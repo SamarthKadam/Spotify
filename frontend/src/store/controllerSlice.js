@@ -11,7 +11,9 @@ const controllerSlice=createSlice({
         IsBarVisible:false,
         currPlayingSongUI:undefined,
         SongBarWidth:0,
-        isCurrentPlay:false
+        isCurrentPlay:false,
+        isPopup:false,
+        likedSongs:[]
     },
     reducers:{
         setUser(state,action)
@@ -80,6 +82,23 @@ const controllerSlice=createSlice({
         {
             state.isCurrentPlay=!state.isCurrentPlay;
         },
+        setisPopUpActive(state,action)
+        {
+            state.isPopup=true;
+        },
+        setIsPopUpFalse(state,action)
+        {
+            state.isPopup=false;
+        },
+        addLikedSongs(state,action)
+        {
+            console.log(action.payload);
+            state.likedSongs.push(action.payload);
+        },
+        removeLikedSongs(state,action)
+        {
+            state.likedSongs=state.likedSongs.filter((data)=>data.name!==action.payload.name);
+        }
     }
 
 })

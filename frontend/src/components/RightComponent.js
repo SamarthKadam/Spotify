@@ -23,10 +23,11 @@ export default function RightComponent() {
       <div className='bg-gradient-to-b from-[#1e0f45] via-[#1a1033] to-[#131217]  px-10 flex-col'>
         <div className='text-white text-3xl font-bold font-poppins mb-6' >{greet}</div>
         <div className='grid grid-cols-3 max-[937px]:grid-cols-2 max-[834px]:grid-cols-1 gap-4 text-white font-semibold'>
-          {
+          {<Link to='/play/likedSongs'>
             <div className='bg-[#ffffff1e] ease-in-out duration-300 cursor-pointer  hover:bg-[#ffffff36]  flex items-center overflow-hidden rounded '>
             <img alt='img' className='w-20 mr-5' src={likedLogo}></img> Liked Songs
           </div>
+          </Link>
           }
           {
             values.map((data,index)=>{
@@ -52,7 +53,7 @@ export default function RightComponent() {
                 </div>
                 <div className='flex flex-col justify-start w-[100%] mt-4'>
                   <div>{data.name}</div>
-                  <div className='text-sm font-poppins text-[#8F8F8F]'>{data.playListSongs[9].artists.split(',')[0]},{data.playListSongs[5].artists.split(',')[0]}</div>
+                  <div className='text-sm font-poppins text-[#8F8F8F]'>{data.playListSongs[7].artists.split(',')[0]},{data.playListSongs[5].artists.split(',')[0]}</div>
                 </div>
               </div>
               </Link>)

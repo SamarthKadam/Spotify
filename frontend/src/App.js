@@ -16,9 +16,6 @@ const router=createBrowserRouter([
         path:'home',element:<HomePage></HomePage>
       },
       {
-        path:'likedSongs',element:<LikedSongs></LikedSongs>
-      },
-      {
         path:'login',element:<Login></Login>,action:loginAction
       },
       {
@@ -31,6 +28,9 @@ const router=createBrowserRouter([
           },
           {
             path:':id',element:<Playlist></Playlist>
+          },
+          {
+            path:'likedSongs',element:<LikedSongs></LikedSongs>
           }
         ]
       }

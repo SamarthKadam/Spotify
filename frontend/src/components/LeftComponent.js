@@ -20,7 +20,7 @@ export default function LeftComponent() {
         </div>
         <div className='flex flex-col'>
             <Bar loc='/playlist' logo={addLogo} text='Create Playlist'></Bar>
-            <Bar loc='/likedSongs' logo={likeLogo} text='Liked Songs'></Bar>
+            <Bar loc='/play/likedSongs' logo={likeLogo} text='Liked Songs'></Bar>
             <Bar loc='/episode' logo={bookmarkLogo} text='Your Episodes' ></Bar>
         </div>
     </div>

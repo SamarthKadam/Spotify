@@ -17,11 +17,6 @@ app.use(cookieParser());
 
 app.use(express.json());
 
-app.use((req,res,next)=>{
-
-    console.log("Hello from the middleware");
-    next();
-})
 
 
 app.use('/api/v1/users',userRouter);

@@ -53,8 +53,6 @@ export default function PlayerBar(){
           dispatch(controllerAction.setCurrPlayingSong(value));
 
 
-
-          console.log("end of the song");
         }
 
         if(currentDuration===0)
