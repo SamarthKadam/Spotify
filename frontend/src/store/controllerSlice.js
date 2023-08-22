@@ -92,14 +92,18 @@ const controllerSlice=createSlice({
         },
         addLikedSongs(state,action)
         {
-            console.log(action.payload);
             state.likedSongs.push(action.payload);
         },
         removeLikedSongs(state,action)
         {
+            console.log("he kit zata");
             state.likedSongs=state.likedSongs.filter((data)=>data.name!==action.payload.name);
+        },
+        initializeLikedSongs(state,action)
+        {
+            state.likedSongs=action.payload;
         }
-    }
+        }
 
 })
 

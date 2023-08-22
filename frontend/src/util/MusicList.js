@@ -6,7 +6,7 @@ export default function MusicList({val,data}) {
 
     function ClickHandler()
     {
-        alert("play it in there");
+        alert("Limited its functionality will be working soon");
     }
 
 

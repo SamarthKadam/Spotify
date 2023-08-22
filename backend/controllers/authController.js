@@ -3,6 +3,11 @@ const catchAsync=require('../utils/catchAsync');
 const jwt=require('jsonwebtoken');
 const AppError = require('../utils/AppError');
 const {promisify}=require('util');
+const path = require('path')
+const dotenv=require('dotenv');
+
+dotenv.config({path:path.join(__dirname,'../config.env')});
+
 
 const signToken=(id)=>{
     const token=jwt.sign({id},process.env.JWTSECRET,{expiresIn:process.env.JWTEXPIRES});

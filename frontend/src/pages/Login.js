@@ -18,7 +18,7 @@ export  async function action({request})
   }
 
 
-  const response=await fetch('http://127.0.0.1:8000/api/v1/users/login',{
+  const response=await fetch(`${process.env.REACT_APP_API_URL}/api/v1/users/login`,{
     method:request.method,
     headers:{
       'Content-type':'application/json'

@@ -9,17 +9,40 @@ import VolumeBar from '../util/VolumeBar'
 import { useSelector } from 'react-redux'
 import PlayerBar from '../util/PlayerBar'
 import { useDispatch } from 'react-redux'
-import { useState } from 'react'
+import { useState,useEffect} from 'react'
 import { controllerAction } from '../store/controllerSlice'
 import {MdExpandLess,MdExpandMore} from 'react-icons/md'
 import getNextPlayingSong from '../helper/nextPlay'
 import getBeforePlayingSong from '../helper/beforePlay';
 import likedSong from '../helper/likedSong'
+import checkPresent from '../helper/checkPresent'
 
 export default function MusicBar() {
 const AlbumName=useSelector((state)=>state.controller.CurrplayingName);
+const likedSongs=useSelector((state)=>state.controller.likedSongs)
+const isPlaying=useSelector(state=>state.controller.isCurrentPlay);
+
+
 
 const data=useSelector(state=>state.controller.currPlayingSongUI);
+
+
+
+
+useEffect(()=>{
+
+  console.log("change zale ni");
+let value=checkPresent(likedSongs,data.name);
+if(value===true)
+{
+  setIsSongLiked(true)
+}
+else{
+  setIsSongLiked(false);
+}
+
+},[data])
+
 
 const[isShown,setIsShown]=useState(false);
 const playlist=useSelector((state)=>state.controller.playlist);
@@ -29,23 +52,57 @@ const[isSongLiked,setIsSongLiked]=useState(false);
 
 function songLikeHandler()
 {
-  if(isSongLiked===false)
-  {
-    dispatch(controllerAction.setisPopUpActive());
-    dispatch(controllerAction.addLikedSongs(data))
-  }
-  else{
-    dispatch(controllerAction.removeLikedSongs(data))
-  }
+
+  // console.log("why are you executing multiple times");
+
+  // if(isSongLiked===false)
+  // {
+  //   dispatch(controllerAction.setisPopUpActive());
+  //   if(!checkPresent(likedSongs,data.name))
+  //   dispatch(controllerAction.addLikedSongs(data))
+  // }
+  // else{
+  //   if(checkPresent(likedSongs,data.name))
+  //   dispatch(controllerAction.removeLikedSongs(data))
+  // }
+  // setIsSongLiked((value)=>{
+  //   if(!checkPresent(likedSongs,data.name))  
+  //   {
+  //     console.log("is not present");
+  //     likedSong(data.name,!value);
+  //   }
+  //   else{
+  //     console.log("is present and now its needed to be removed")
+  //     likedSong(data.name,!value);
+  //   } 
+  //   return !value;
+  // })
   setIsSongLiked((value)=>{
-    likedSong(data.name,!value);
+    if(!checkPresent(likedSongs,data.name))  
+    {
+      console.log("is not present");
+      likedSong(data.name,!value);
+      dispatch(controllerAction.setisPopUpActive());
+      dispatch(controllerAction.addLikedSongs(data))
+    }
+    else{
+      console.log("is present and now its needed to be removed")
+      dispatch(controllerAction.removeLikedSongs(data))
+      likedSong(data.name,!value);
+    } 
     return !value;
   })
 }
 
 
+
 function backPlay()
 {
+  if(isPlaying===true)
+  {
+    dispatch(controllerAction.togglePlaying());
+  }
+
   const {inde,value,playListSongs}=getBeforePlayingSong(data,playlist,AlbumName);
   if(inde===-1)
   {
@@ -62,6 +119,11 @@ function backPlay()
 
  function frontPlay()
 {
+  if(isPlaying===true)
+  {
+    dispatch(controllerAction.togglePlaying());
+  }
+
  const {inde,value,playListSongs}=getNextPlayingSong(data,playlist,AlbumName);
  dispatch(controllerAction.initializeIsPlaying(playListSongs))
  const audio=new Audio(value.audioURL);
@@ -83,7 +145,6 @@ setIsThumbView((state)=>!state);
 
 
   const dispatch=useDispatch();
-  const isPlaying=useSelector(state=>state.controller.isCurrentPlay);
 
 
  function ChanngePlayingMode()

@@ -7,6 +7,7 @@ dotenv.config({path:'../config.env'});
 
 
 
+
 const DBAuth=process.env.DB.replace('<password>',process.env.DBpassword);
 
 

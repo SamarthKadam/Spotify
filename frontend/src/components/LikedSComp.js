@@ -21,6 +21,7 @@ export default function LikedSComp() {
     const LikedSongsList=useSelector(state=>state.controller.likedSongs);
 
 
+
     const from='#503A9B';
   const value=chroma.hex(from).darken(2).hex();
 
@@ -63,7 +64,7 @@ export default function LikedSComp() {
         <div className='text-white font-poppins' >
           <div className='mt-8'>Playlist</div>
           <div className='mt-2 text-8xl font-semibold'>Liked Songs </div>
-          <div className='text-sm text-[#ffffffd1] ml-2 mt-6'>{user.name} 304 songs</div>
+          <div className='text-sm text-[#ffffffd1] ml-2 mt-6'>{user.name} {LikedSongsList.length} songs</div>
           <div className='text-sm mt-2 flex'>
             <div className='flex mr-3'>
             <img alt='logo' className='w-5 mr-1' src={SpotifyLogo}></img>
@@ -72,7 +73,8 @@ export default function LikedSComp() {
             </div>
         </div>
       </div>
-      <div className='bg-[#111111a0] px-10 pb-[5%] relative -top-24'>
+      {
+        LikedSongsList.length!==0&&<div className='bg-[#111111a0] px-10 pb-[5%] relative -top-24'>
         <div className='h-[13%] py-5  flex items-center justify-start'>
           <div className='group'>
             <img alt='play'className='w-14  group-hover:scale-[1.1] ease-in-out duration-300' src={playbutton}>
@@ -89,9 +91,10 @@ export default function LikedSComp() {
             return <MusicList data={data} val={index+1} key={index}></MusicList>
           })}
       </div>
-      {/* {
+      }
+      {
         LikedSongsList.length===0&&<EmptyColl></EmptyColl>
-      } */}
+      }
       </div>
       </>
   )

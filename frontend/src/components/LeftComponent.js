@@ -15,13 +15,13 @@ export default function LeftComponent() {
         <img className='w-36 -mt-10'alt='logo' src={image}></img>
         <div className='flex flex-col mb-10'>
             <Bar loc='/play' logo={homeLogo} text='Home'></Bar>
-            <Bar loc='/searchlogo' logo={searchLogo} text='Search'></Bar>
-            <Bar loc='/library' logo={albumLogo} text='Your Library'></Bar>
+            <Bar loc='/play' logo={searchLogo} text='Search'></Bar>
+            <Bar loc='/play' logo={albumLogo} text='Your Library'></Bar>
         </div>
         <div className='flex flex-col'>
-            <Bar loc='/playlist' logo={addLogo} text='Create Playlist'></Bar>
+            <Bar loc='/play' logo={addLogo} text='Create Playlist'></Bar>
             <Bar loc='/play/likedSongs' logo={likeLogo} text='Liked Songs'></Bar>
-            <Bar loc='/episode' logo={bookmarkLogo} text='Your Episodes' ></Bar>
+            <Bar loc='/play' logo={bookmarkLogo} text='Your Episodes' ></Bar>
         </div>
     </div>
   )

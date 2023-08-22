@@ -25,7 +25,7 @@ export default function SongPage() {
 export async function loader()
 {
   const token=localStorage.getItem('jwt');
-  const response=await fetch('http://127.0.0.1:8000/api/v1/playlist',{
+  const response=await fetch(`${process.env.REACT_APP_API_URL}/api/v1/playlist`,{
     headers:{
       'Content-type':'application/json',
       'Authorization':`Bearer ${token}`
