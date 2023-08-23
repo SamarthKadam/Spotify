@@ -31,7 +31,6 @@ const data=useSelector(state=>state.controller.currPlayingSongUI);
 
 useEffect(()=>{
 
-  console.log("change zale ni");
 let value=checkPresent(likedSongs,data.name);
 if(value===true)
 {
@@ -53,40 +52,14 @@ const[isSongLiked,setIsSongLiked]=useState(false);
 function songLikeHandler()
 {
 
-  // console.log("why are you executing multiple times");
-
-  // if(isSongLiked===false)
-  // {
-  //   dispatch(controllerAction.setisPopUpActive());
-  //   if(!checkPresent(likedSongs,data.name))
-  //   dispatch(controllerAction.addLikedSongs(data))
-  // }
-  // else{
-  //   if(checkPresent(likedSongs,data.name))
-  //   dispatch(controllerAction.removeLikedSongs(data))
-  // }
-  // setIsSongLiked((value)=>{
-  //   if(!checkPresent(likedSongs,data.name))  
-  //   {
-  //     console.log("is not present");
-  //     likedSong(data.name,!value);
-  //   }
-  //   else{
-  //     console.log("is present and now its needed to be removed")
-  //     likedSong(data.name,!value);
-  //   } 
-  //   return !value;
-  // })
   setIsSongLiked((value)=>{
     if(!checkPresent(likedSongs,data.name))  
     {
-      console.log("is not present");
       likedSong(data.name,!value);
       dispatch(controllerAction.setisPopUpActive());
       dispatch(controllerAction.addLikedSongs(data))
     }
     else{
-      console.log("is present and now its needed to be removed")
       dispatch(controllerAction.removeLikedSongs(data))
       likedSong(data.name,!value);
     } 

@@ -1,8 +1,5 @@
 export default async function likedSong(songName,isActive){
 
-    console.log("HTTP REQUEST MADE FOR THE BELOW HEADERS");
-    console.log(songName,isActive)
-
     const cookie=localStorage.getItem('jwt');
 
     const data={
@@ -11,13 +8,11 @@ export default async function likedSong(songName,isActive){
     }
 
     try{
-        const response=await fetch(`${process.env.REACT_APP_API_URL}/api/v1/songs/likedSong`, {method:'post',
+        await fetch(`${process.env.REACT_APP_API_URL}/api/v1/songs/likedSong`, {method:'post',
         headers:{
             'Content-type':'application/json',
             'Authorization':`Bearer ${cookie}`
         },body:JSON.stringify(data)})   
-
-        const responseData=await response.json();
     }catch(err)
     {
         console.log(err);
