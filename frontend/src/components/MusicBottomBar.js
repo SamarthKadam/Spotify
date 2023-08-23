@@ -28,7 +28,6 @@ const data=useSelector(state=>state.controller.currPlayingSongUI);
 
 
 
-
 useEffect(()=>{
 
 let value=checkPresent(likedSongs,data.name);
@@ -39,7 +38,7 @@ if(value===true)
 else{
   setIsSongLiked(false);
 }
-
+// eslint-disable-next-line
 },[data])
 
 

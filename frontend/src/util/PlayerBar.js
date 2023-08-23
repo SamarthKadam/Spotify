@@ -70,6 +70,7 @@ export default function PlayerBar(){
         clearInterval(timer);
       }
 
+// eslint-disable-next-line
     },[audio,dispatch]);
 
 
