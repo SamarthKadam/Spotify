@@ -10,7 +10,6 @@ import chroma from 'chroma-js';
 import EmptyColl from './EmptyColl';
 // import playbutton from '../content/playbutton.png';
 // import playlist from '../content/playlist.png';
-import MusicBar from './MusicBar';
 import playbutton from '../content/play-button.png'
 import MusicList from '../util/MusicList';
 

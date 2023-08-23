@@ -38,7 +38,6 @@ exports.likedSong=catchAsync(async(req,res,next)=>{
     else
     {
      user.likedSongs=user.likedSongs.filter((song)=>song.name!==PassedSong.name);
-       console.log(user.likedSongs);
     }
 
     await user.save();

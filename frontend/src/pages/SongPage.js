@@ -1,5 +1,4 @@
 import React from 'react'
-import LeftComponent from '../components/LeftComponent'
 import RightComponent from '../components/RightComponent'
 import { json } from 'react-router-dom'
 import { controllerAction } from '../store/controllerSlice'
