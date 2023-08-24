@@ -1,8 +1,21 @@
 import React from 'react'
 import { redirect } from 'react-router-dom';
 import FormComp from '../components/FormComp'
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+const notify = () =>{
+  return toast.error('Something went wrong!', {
+    position: "top-center",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+    });
+}
 export default function SignUp() {
-
 
   return (
     <FormComp></FormComp>
@@ -33,7 +46,7 @@ export async function action({request})
 
   if(responseData.status==='fail')
   {
-    alert(responseData.message);
+    notify();
     return null;
   }
 

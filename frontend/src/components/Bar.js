@@ -1,21 +1,26 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+import {  toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Bar({logo,text,loc}) {
 
-  // oc='/play' logo={homeLogo} text='Home'></Bar>
-  //           <Bar loc='/play' logo={searchLogo} text='Search'></Bar>
-  //           <Bar loc='/play' logo={albumLogo} text='Your Library'></Bar>
-  //       </div>
-  //       <div className='flex flex-col'>
-  //           <Bar loc='/play' logo={addLogo} text='Create Playlist'></Bar>
-  //           <Bar loc='/play/likedSongs' logo={likeLogo} text='Liked Songs'></Bar>
-  //           <Bar loc='/play' logo={bookmarkLogo} text='Your Episodes' ></Bar>
-
+  const notify = () => {
+    return toast.info(`Limited it's functionality, will be working soon!!`, {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
+  }
 
   const clickHandler=()=>{
     if(text==='Search'||text==='Your Library'||text==='Create Playlist'||text==='Your Episodes')
-     alert('Limited its functionality will be working soon') 
+    notify();
   }
 
 

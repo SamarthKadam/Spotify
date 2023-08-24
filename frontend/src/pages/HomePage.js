@@ -17,10 +17,8 @@ export default function HomePage() {
 
 
   useEffect(()=>{
-
-
+    setLoading(true);
     const fetchData=async()=>{
-
     const response=await fetch(`${process.env.REACT_APP_API_URL}/api/v1/users/protect`,{
       method:'post',
       headers:{
@@ -33,8 +31,10 @@ export default function HomePage() {
     
     if(data.status==='success')
     {
-      setLoading(true);
       navigate('/play');
+    }
+    else{
+      setLoading(false);
     }
   }
 

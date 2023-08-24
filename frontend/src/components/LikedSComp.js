@@ -12,6 +12,7 @@ import EmptyColl from './EmptyColl';
 // import playlist from '../content/playlist.png';
 import playbutton from '../content/play-button.png'
 import MusicList from '../util/MusicList';
+import { ToastContainer } from 'react-toastify';
 
 export default function LikedSComp() {
 
@@ -49,6 +50,18 @@ export default function LikedSComp() {
 
   return (
     <>
+          <ToastContainer
+position="top-center"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="light"
+/>
     <div style={{'--hgt':innerValue}} className='h-[var(--hgt)] overflow-y-scroll relative w-[100%] bg-[#121212] scrollbar scrollbar-thumb-[#5A5A5A] scrollbar-track-[#11111100]  hover:scrollbar-thumb-[#757575]'>
       <div className='absolute w-[100%] h-[7%] flex items-center '>
         <div className='flex ml-[2%]'>

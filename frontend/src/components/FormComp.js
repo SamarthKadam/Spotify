@@ -4,13 +4,26 @@ import img from '../content/SpotifyDark.png';
 import { useState } from 'react';
 import { useSubmit } from 'react-router-dom';
 import { useNavigation } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function FormComp() {
 
   const navigation=useNavigation();
   const submit=useSubmit();
   const [SignUpData,setSignUpData]=useState({name:'',email:'',confirmEmail:'',password:''});
-
+  const notify = () =>{
+    return toast.error('Something went wrong !!', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
+  }
 
   const isSubmitting=navigation.state==='submitting';
 
@@ -34,7 +47,7 @@ export default function FormComp() {
 
     if(CheckError===1)
     {
-      alert("Please Verify Your Details");
+      notify()
     }
     else{
       submit(SignUpData,{method:'post'})
@@ -46,6 +59,18 @@ export default function FormComp() {
   return (
     <>
     <div className='flex flex-col  items-center z-0'>
+    <ToastContainer
+position="top-center"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="light"
+/>
       <img className='w-48 mt-8' src={img} alt='spotify_logo'></img>
       <div className='font-poppins text-2xl mt-8 font-bold'>Sign up for free to start listening.</div>
       <hr></hr>

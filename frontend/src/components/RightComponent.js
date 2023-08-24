@@ -4,6 +4,7 @@ import likedLogo from '../content/liked-songs-300.png';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import StickyBar from './StickyBar';
+import { ToastContainer } from 'react-toastify';
 
 export default function RightComponent() {
 
@@ -19,6 +20,18 @@ export default function RightComponent() {
 
   return (
     <div className='bg-[#111111] min-h-screen  w-screen '>
+      <ToastContainer
+position="top-center"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="light"
+/>
       <StickyBar user={user}></StickyBar>
       <div className='bg-gradient-to-b from-[#1e0f45] via-[#1a1033] to-[#131217]  px-10 flex-col'>
         <div className='text-white text-3xl font-bold font-poppins mb-6' >{greet}</div>

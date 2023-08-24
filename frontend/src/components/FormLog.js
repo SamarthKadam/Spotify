@@ -6,6 +6,8 @@ import { useState } from 'react';
 import {validate} from 'react-email-validator'
 import img from '../content/SpotifyDark.png';
 import { useNavigation } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function FormLog() {
 
@@ -15,13 +17,26 @@ export default function FormLog() {
 
   const isSubmitting=navigation.state==='submitting';
 
+  const notify = () =>{
+    return toast.error('Something went wrong !!', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
+  }
+
 
   function submitData(e)
   {
     e.preventDefault();
     if(!loginData.email || !validate(loginData.email) ||!loginData.password)
     {
-      alert("Please enter valid details")
+      notify();
     }
 
     submit(loginData,{method:'post'})
@@ -35,6 +50,18 @@ export default function FormLog() {
   
   return (
     <div className='flex flex-col  items-center'>
+          <ToastContainer
+position="top-center"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="light"
+/>
       <img className='w-48 mt-8' src={img} alt='spotify_logo'></img>
       <div className='font-poppins text-sm font-bold mt-8 '>To continue, log in to Spotify.</div>
       <hr></hr>
@@ -47,7 +74,7 @@ export default function FormLog() {
         <div className='h-[1px] w-[100%] mt-10 bg-[#808080]'></div>
         <div className='flex flex-col items-center mt-6'>
             <div className='font-poppines text-xl font-bold '>Don't have an account?</div>
-            <Link to='/' className='text-[#5A5A5A] font-medium border-2 border-[#5A5A5A] hover:border-black px-32 rounded-[40px] mt-7 py-4 tracking-wide'>SIGN UP FOR SPOTIFY</Link>
+            <Link to='/signup' className='text-[#5A5A5A] font-medium border-2 border-[#5A5A5A] hover:border-black px-32 rounded-[40px] mt-7 py-4 tracking-wide'>SIGN UP FOR SPOTIFY</Link>
         </div>
       </form>
     </div>

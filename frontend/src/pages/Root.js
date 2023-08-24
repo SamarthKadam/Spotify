@@ -31,7 +31,6 @@ export default function Root() {
     }).catch(err=>{
       console.log(err);
     })
-
   },[dispatch])
 
 

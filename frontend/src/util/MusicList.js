@@ -1,12 +1,26 @@
 import React from 'react'
 import Play from '../content/play.png'
+import {  toast } from 'react-toastify';
 
 export default function MusicList({val,data}) {
+
+    const notify = () => {
+        return toast.info(`Limited it's functionality, will be working soon!!`, {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          });
+      }
 
 
     function ClickHandler()
     {
-        alert("Limited its functionality will be working soon");
+         notify();
     }
 
 
