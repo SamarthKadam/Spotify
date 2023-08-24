@@ -47,7 +47,7 @@ export default function FormLog() {
         <div className='h-[1px] w-[100%] mt-10 bg-[#808080]'></div>
         <div className='flex flex-col items-center mt-6'>
             <div className='font-poppines text-xl font-bold '>Don't have an account?</div>
-            <Link to='/home' className='text-[#5A5A5A] font-medium border-2 border-[#5A5A5A] hover:border-black px-32 rounded-[40px] mt-7 py-4 tracking-wide'>SIGN UP FOR SPOTIFY</Link>
+            <Link to='/' className='text-[#5A5A5A] font-medium border-2 border-[#5A5A5A] hover:border-black px-32 rounded-[40px] mt-7 py-4 tracking-wide'>SIGN UP FOR SPOTIFY</Link>
         </div>
       </form>
     </div>

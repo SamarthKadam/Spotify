@@ -7,7 +7,7 @@ export default function ErrorCard({message}) {
 
   function redirect()
   {
-    navigate('/home');
+    navigate('/');
   }
 
   return (
