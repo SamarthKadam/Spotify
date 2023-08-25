@@ -26,7 +26,6 @@ const userSchema=new mongoose.Schema({
     password:{
         type:String,
         required:[true,'User must contain password'],
-        select:false
     },
     likedSongs:{
         type:[mongoose.Schema.ObjectId],
@@ -43,11 +42,18 @@ userSchema.methods.correctPassword=async function(passwordDB,typedPassword)
 }
 
 
-// userSchema.pre('save',async function(next){
+userSchema.pre('save',async function(next){
 
-//     this.password=await bcrypt.hash(this.password,12);
-//     next();
-// })
+    let value=this.password;
+    if(value.startsWith("$2a$")||value.startsWith("$2b$"))
+    {
+        //do nothing
+    }
+    else{
+        this.password=await bcrypt.hash(this.password,12);
+    }
+    next();
+})
 
 const users=mongoose.model('users',userSchema);
 
