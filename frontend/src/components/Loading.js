@@ -23,7 +23,7 @@ export default function Loading() {
   },[])
 
   return (
-    <div className='h-screen w-screen bg-white flex items-center justify-center'>
+    <div className='h-screen w-screen bg-[#F9F9F9] flex items-center justify-center'>
       <ToastContainer
 position="top-center"
 autoClose={5000}
