@@ -22,6 +22,8 @@ Welcome to the Spotify Clone project, an immersive full-stack music streaming
 ![jwt](	https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)&nbsp;
 
 **Design:**
+
+
 <img  width="100%" height="100%" src="frontend/public/homeimage.png">
 
 
