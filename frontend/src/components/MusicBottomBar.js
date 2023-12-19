@@ -156,8 +156,8 @@ cont=<div className='relative hidden group  '>
 
   return (
     <div className='px-5 h-[13%] items-center grid fixed bottom-0 z-50 w-[100%] bg-[#181818] grid-cols-[1fr,2fr,1fr]'>
-      <div style={{display:!isThumbView?'none':''}} className=' fixed w-[15%] z-0 bottom-[12%] group'>
-        <img alt='img' className=' w-[100%]  mb-[4%] ' src={data.CoverImg}>
+      <div style={{display:!isThumbView?'none':''}} className='flex justify-center fixed w-[15%] z-0 bottom-[12%] group'>
+        <img alt='img' className=' h-52  mb-[4%] ' src={data.CoverImg}>
            </img>
       <div onClick={ToggleTransition} className=' group-hover:block hidden rounded-[50%] bg-[#333333] absolute top-[2%] left-[93%] -translate-x-[93%]'><MdExpandMore color='white'size={30} ></MdExpandMore></div>
       </div>

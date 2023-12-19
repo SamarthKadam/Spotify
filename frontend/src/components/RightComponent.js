@@ -38,7 +38,7 @@ theme="light"
         <div className='grid grid-cols-3 max-[937px]:grid-cols-2 max-[834px]:grid-cols-1 gap-4 text-white font-semibold'>
           {<Link to='/play/likedSongs'>
             <div className='bg-[#ffffff1e] ease-in-out duration-300 cursor-pointer  hover:bg-[#ffffff36]  flex items-center overflow-hidden rounded '>
-            <img alt='img' className='w-20 mr-5' src={likedLogo}></img> Liked Songs
+            <img alt='img' className='w-[60px] mr-5' src={likedLogo}></img> Liked Songs
           </div>
           </Link>
           }
@@ -46,7 +46,7 @@ theme="light"
             values.map((data,index)=>{
               return <Link key={`${data.name}`} to={data.name}>
               <div className='bg-[#ffffff1e] ease-in-out duration-300 cursor-pointer  hover:bg-[#ffffff36] flex items-center overflow-hidden rounded '>
-              <img alt='img' className='w-20 mr-5' src={data.img}></img> {data.name}
+              <img alt='img' className='w-[60px] mr-5' src={data.img}></img> {data.name}
             </div>
             </Link>
             })
@@ -62,7 +62,7 @@ theme="light"
                 <Link key={index} to={data.name}>
               <div  className='h-[100%] px-2 py-2 ease-in-out duration-300 cursor-pointer hover:bg-[#282828]  rounded-md bg-[#181818] flex flex-col'>
                <div className='flex items-center justify-center'>
-                 <img alt='icon' className='w-40 ' src={data.img}></img>
+                 <img alt='icon' className='w-[140px] ' src={data.img}></img>
                 </div>
                 <div className='flex flex-col justify-start w-[100%] mt-4'>
                   <div>{data.name}</div>
