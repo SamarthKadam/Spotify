@@ -49,7 +49,7 @@ export default function MusicBar({ActiveValue,data,val,playlist}) {
             <div onClick={playSong} className='text-white text-sm hidden group-hover:block'><img alt='play' src={isActive?Pause:Play} className='w-3'></img></div>
             <div className='text-[#B3B3B3] text-xs font-poppins'>
                 <div className='flex items-center'>
-                    <img className='w-14 mr-4' alt='img' src={data.smImg}></img>
+                    <img className='w-10 mr-4' alt='img' src={data.smImg}></img>
                     <div className='flex flex-col'>
                         <div className={isActive?'text-[#1DB251] text-sm font-normal':'text-white text-sm font-normal'}>{data.name}</div>
                         <div>{data.artists}</div>
